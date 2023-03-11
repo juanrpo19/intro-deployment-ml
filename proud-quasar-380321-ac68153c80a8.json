@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "proud-quasar-380321",
+  "private_key_id": "ac68153c80a824372434f50a232ad2f2aa0b21d2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCXmXXabXG3jodu\njtJDCrEjXD1xMscLXCOQQSEBmOtwljO6Pyiczas6DKnTq8sN3roRsCNTOXWm2jm9\nSQl1VDPwzCgtgTuZ0o61LurSPyTp4vVqobaFySt37LUIjIGUWLPLvtVuv2mVOfs9\nxHR2kXEAEFDfGOU8BfPck7cFDXjoDBckpRTnSsUbQ4p7IpzEidvLlbp1NuC0meS4\nrXWEe3vd7TSPP8oBnsWXEbvQK1p22vTvgZjc/Pfpa43Ak/3LTza7c7c/FyaNW/J9\nEqFys7WSjGtI850PCGBmozOPHcZ6gt7sb3TrdtICxfkUcSHC5x0Qp4tFwDYcXTjX\nObUzriMZAgMBAAECggEABGOUoEcmoY0ycdKX9wmsVPUe0MQK8/LeEzc1fsu39kWc\n+AWL1hVUwZyb/pU0zuEdwzUVortRQwxCm26tw8w1KEGq4J1jFbodOFTkRsO9/Hj+\nCLEnnQI03FcZqyaROlOimfGbkYYgZwn7kn9ZbVTa4Aj45GqeuWEFPUO4CuEH2PT0\nOrNrHsNRmR72+5RKft55mwBGt7kgPpPR1Jmc6Uc0k8LeUY/YmGx8yrBGYo6Uteot\n9kyP6vYueoTXIMf8HXi6o9+J0atDMPhxm9NLIuU5bKzHpsPxyWYFgEyFqkk/xH62\nmkIMvo8wSL480AtB3zbqzjYDakwovulBJrYACJfEAQKBgQDP0u9kDRuOFnOd51vB\nxuoQVme2TkgKPsejN8TNpoH9hnkwMKKqHjEmyhtIioARGyWlv5P0wrdj3vNHa1CY\nt2Q/NatoCTJJZTShBc9g1kP/VXoetzOas6xftfw12K5f7U8HcYxgvRYPrA2pVj8c\nzBKD7lMXUANSSqH8dJD947j/GQKBgQC6vfLnFXUsq+xLbB99aq4MqaFYmOWQ7jKr\nxDWcbh/UzFZ5l/NnU9vS0tKm5yjyxZZTy1tJmYID3X9STtbUT6AjCdTU0vNWHir7\n9KdApy574Yg+1bRmFhooJUYAweX5WU9rnN38M2ERJKTGGaFTV24jXM9ROdA+3bkA\nUMLkVJbEAQKBgQDAHUctHyzUyY5xbtkUpbPkDGvtTCouRmC4Uip8zSqnWbMXyC3m\nwug+6mAUS+wdZBIGSbYVchajnQsZf2vO8OEbyZo9Hxs8W/Et1TgiVZAgLj0ovcRX\ngzaad5nBkR+JD8+Zmu7g0ordS/iJDHBlR4TqLtri1xVq8hESVhNekC+IqQKBgGDT\nbqgNAzWHazzsMiO4dciRB9zFYnrUVyei091paE3RKaFgfU99NsTIlXr+7sd6Veja\nz1mJI9XXOlY2FMP/CVxBk75KJuvnNohvoW0vgjWvihJyglhQa32XXgW0hAbXHQwC\nSUOkbFcUNe+ViIWLFst1KvXF0UlXc75LIdJ8XbQBAoGADS6kPpcjd0np2iXJBoRV\nWqEyp0uKOSSUgd0/Pz9R5cSdB2HOJGwoEI93gqm3BiJDT1MVp9Xm0s7vGDYzdQao\npQwYxMpYecs7EBLPMz8xlugi4eyzN2nkAJNbCkAAwPh0FKP5N3Gk1NYAV8U6zHwZ\n9aoNmrIWFcyZYh6+3ewauX0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "storage-manager@proud-quasar-380321.iam.gserviceaccount.com",
+  "client_id": "104596612480330287377",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-manager%40proud-quasar-380321.iam.gserviceaccount.com"
+}
