@@ -18,9 +18,9 @@ logger = logging.getLogger(__name__)
 
 logger.info('Fetching data...')
 
-movie_data_path = api.read('C:\\Users\\LENOVO\\Proyectos\\Despliegue-ml\\intro-deployment-ml\\dataset\\movies.csv', remote='dataset-track', encoding='UTF-8')
-financial_data_path = api.read('C:\\Users\\LENOVO\\Proyectos\\Despliegue-ml\\intro-deployment-ml\\dataset\\finantials.csv', remote='dataset-track', encoding='UTF-8')
-opening_data_path = api.read('C:\\Users\\LENOVO\\Proyectos\\Despliegue-ml\\intro-deployment-ml\\dataset\\opening_gross.csv', remote='dataset-track', encoding='UTF-8')
+movie_data_path = api.read('C:\\Users\\LENOVO\\Proyectos\\Despliegue-ml\\intro-deployment-ml\\dataset\\movies.csv', remote='dataset-track', encoding='utf-8')
+financial_data_path = api.read('C:\\Users\\LENOVO\\Proyectos\\Despliegue-ml\\intro-deployment-ml\\dataset\\finantials.csv', remote='dataset-track', encoding='utf-8')
+opening_data_path = api.read('C:\\Users\\LENOVO\\Proyectos\\Despliegue-ml\\intro-deployment-ml\\dataset\\opening_gross.csv', remote='dataset-track', encoding='utf-8')
 
 fin_data = pd.read_csv(StringIO(financial_data_path))
 movie_data = pd.read_csv(StringIO(movie_data_path))
