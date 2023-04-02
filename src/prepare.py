@@ -27,8 +27,7 @@ movie_data = pd.read_csv(StringIO(movie_data_path))
 opening_data = pd.read_csv(StringIO(opening_data_path))
 
 
-
-numeric_columns_mask = (movie_data.dtypes == float) | (movie_data.dtypes == int)
+numeric_columns_mask = (movie_data.dtypes == 'float64') | (movie_data.dtypes == 'int64')
 numeric_columns = [column for column in numeric_columns_mask.index if numeric_columns_mask[column]]
 movie_data = movie_data[numeric_columns+['movie_title']]
 
