@@ -25,7 +25,6 @@ jobs:
           virtualenv venv 
           source venv/bin/activate
           pip install -r src/requirementes.txt
-          python utilities/prueba.py
           export GOOGLE_APPLICATION_CREDENTIALS=$(python utilities/setter.py)
           dvc pull model/model2.pkl -r model-tracker
           dvc unprotect model/model2.pkl
