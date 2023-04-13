@@ -1,6 +1,6 @@
 stages:
   prepare:
-    cmd: python .\src\prepare.py
+    cmd: python src\prepare.py
     outs:
     - .\dataset\full_data.csv
   training:
