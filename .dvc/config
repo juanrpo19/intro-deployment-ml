@@ -3,4 +3,4 @@
 ['remote "model-track"']
     url = gs://model-dataset-tracker-jers/model
 ['remote "model-tracker"']
-    url = gs://model-dataset-tracker/model
+    url = gs://model-dataset-tracker-jers/model
