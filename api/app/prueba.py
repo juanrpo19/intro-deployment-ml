@@ -2,11 +2,21 @@
 from utils import get_model
 import pandas as pd
 
-json_pred = {"opening_gross": 17435092, "screens": 3008, "production_budget": 65000000, "title_year": 2012, "aspect_ratio": 2.35, "duration": 99, "cast_total_facebook_likes": 1375, "budget": 65000000, "imdb_score": 6.4}
+json_pred = {
+                                                "opening_gross": 0,
+                                                "screens": 0,
+                                                "production_budget": 0,
+                                                "title_year": 0,
+                                                "aspect_ratio": 0,
+                                                "duration": 0,
+                                                "cast_total_facebook_likes": 0,
+                                                "budget": 0,
+                                                "imdb_score": 0
+                                                }
 
 model = get_model()
 
 df = pd.DataFrame([json_pred])
-print(df)
+# print(df)
 # breakpoint()
-print(model.predict(df))
+print(float(model.predict(df)))
