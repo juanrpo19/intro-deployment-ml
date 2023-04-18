@@ -1,4 +1,9 @@
 outs:
+<<<<<<< HEAD
 - md5: 745dfc3698b53b2a60c87f4ccc80ccf8
   size: 139395
+=======
+- md5: 132674362b975518bbb9cad4ff1cf20d
+  size: 139523
+>>>>>>> 03322e8af077a104c28faa00d6e16ac1f161f8e2
   path: model.pkl
