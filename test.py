@@ -5,7 +5,7 @@ client = TestClient(app)
 
 def test_null_prediction():
     response = client.post('/v1/prediction', json = {
-                                                "opening_gross": 0,
+                                                  "opening_gross": 0,
                                                 "screens": 0,
                                                 "production_budget": 0,
                                                 "title_year": 0,
@@ -16,7 +16,7 @@ def test_null_prediction():
                                                 "imdb_score": 0
                                                 })
     assert response.status_code == 200
-    assert round(response.json()['worldwide_gross'],3) == round(22660696.53902454,3)
+    assert response.json()['worldwide_gross'] == 22660696.539024554
 
 
 def test_random_prediction():
