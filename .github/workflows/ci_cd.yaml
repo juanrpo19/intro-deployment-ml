@@ -23,8 +23,8 @@ jobs:
       - name: Set up GCLOUD SDK
         uses: google-github-actions/setup-gcloud@v1
         with:
-          SERVICE_ACCOUNT_KEY: ${{ secrets.SERVICE_ACCOUNT_KEY }}
-          PROJECT_ID: ${{ secrets.PROJECT_ID }}
+          service_account_key: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+          project_id: ${{ secrets.PROJECT_ID }}
       - name:  Build and push
         run: |
           docker build . -t $REGISTRY_NAME:$GITHUB_SHA
