@@ -20,6 +20,11 @@ jobs:
           pip install dvc[gs]
           export GOOGLE_APPLICATION_CREDENTIALS=$(python utilities/setter.py)
           dvc pull model/model.pkl.dvc -r model-tracker -f
+      - id: 'auth'
+        name: 'Authenticate to Google Cloud'
+        uses: 'google-github-actions/auth@v1'
+        with:
+          credentials_json: '${{ secrets.SERVICE_ACCOUNT_KEY }}'
       - name: Set up GCLOUD SDK
         uses: google-github-actions/setup-gcloud@v1 
         with:
