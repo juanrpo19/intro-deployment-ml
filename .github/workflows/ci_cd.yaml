@@ -22,7 +22,7 @@ jobs:
           dvc pull model/model.pkl.dvc -r model-tracker -f
       - id: 'auth'
         name: 'Authenticate to Google Cloud'
-        uses: 'google-github-actions/auth@v1'
+        uses: 'google-github-actions/auth@main'
         with:
           credentials_json: '${{ secrets.SERVICE_ACCOUNT_KEY }}'
       - name: Set up GCLOUD SDK
