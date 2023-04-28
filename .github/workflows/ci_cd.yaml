@@ -11,7 +11,7 @@ jobs:
       SERVICE_ACCOUNT_KEY: ${{ secrets.SERVICE_ACCOUNT_KEY }}
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3 
       - name: Set environment and bring the model
         run: |
           pip3 install virtualenv
